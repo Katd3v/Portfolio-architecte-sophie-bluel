@@ -59,6 +59,13 @@ header {
 	justify-content: space-between;
 	margin: 50px 0
 }
+header a {
+	text-decoration: none;
+	color: black;
+}
+header strong {
+	font-weight: 600;
+}
 section {
 	margin: 50px 0
 }
@@ -242,7 +249,7 @@ footer nav ul {
 	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
 }
 
-#login button {
+.button {
 	background: #1D6154;
 	border: none;
 	border-radius: 60px;
@@ -250,7 +257,7 @@ footer nav ul {
 	margin-top: 20px;
 }
 
-#login span {
+.connect {
 	color: #FFFFFF;
 }
 
